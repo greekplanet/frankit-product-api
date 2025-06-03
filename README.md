@@ -13,6 +13,7 @@
 
 ### 설계 문서
 - [API 설계 문서](./docs/api-reference.md)
+- [시스템 아키텍처 설계](./docs/archi-design.md)
 
 ### 빌드 및 실행
 1. JDK 23 설치
