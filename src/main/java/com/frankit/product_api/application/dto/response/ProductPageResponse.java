@@ -11,7 +11,7 @@ import java.util.List;
 @Schema(description = "상품 페이지 응답 DTO")
 public class ProductPageResponse {
 
-    @Schema(description = "상품 목록", example = "[{\"id\": 1, \"name\": \"노트북\", \"description\": \"고성능 노트북\", \"price\": 1500000, \"shippingFee\": 3000, \"createdAt\": \"2025-06-04T00:37:59.609773\"}]")
+    @Schema(description = "상품 목록")
     private List<ProductResponse> content;
 
     @Schema(description = "페이지 정보")
