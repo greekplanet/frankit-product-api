@@ -1,6 +1,5 @@
 package com.frankit.product_api.infrastructure.config;
 
-import com.frankit.product_api.infrastructure.config.JwtFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
