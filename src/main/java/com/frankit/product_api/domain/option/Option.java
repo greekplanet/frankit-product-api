@@ -25,6 +25,7 @@ public class Option {
 
     @ElementCollection
     @CollectionTable(name = "option_values", joinColumns = @JoinColumn(name = "option_id"))
+    @Column(name = "option_values")
     private List<String> values = new ArrayList<>();
 
     @Column(nullable = false)
