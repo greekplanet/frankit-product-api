@@ -1,3 +1,5 @@
+**/PasswordEncoderTool.java
+*.sql
 HELP.md
 .gradle
 build/
